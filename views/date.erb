@@ -1,0 +1,2 @@
+<h1>Today</h1>
+<p>The date is <%= @days[@currentTime.wday] + ', ' + @months[@currentTime.month - 1] + ' ' + format('%02d', @currentTime.mday) + ', ' + @currentTime.year.to_s %>.</p>
